@@ -4,7 +4,8 @@
   "description": "my curriculum",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node index.js --release"
   },
   "author": "Ivan Pineda",
   "license": "MIT",
