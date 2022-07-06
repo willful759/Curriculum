@@ -1,0 +1,182 @@
+@{layout('')}
+<!DOCTYPE html>
+<html>
+
+<meta title="Curriculum Vitae">
+<meta name="author" content="Ivan Pineda">
+<meta charset="utf-8">
+
+<head>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/js/jquery.js"></script>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul class="hv-list">
+      <li><a href=#mi> @(Sobre mi) </a></li>
+      <li><a href=#edu> @(Educación) </a></li>
+      <li><a href=#exp> @(Experiencia) </a></li>
+      <li><a href=#hab> @(Habilidades) </a></li>
+      <li><a href=#hist> @(Historia académica) </a></li>
+      <!-- big brain hacks here -->
+      @(<li><a href="/?language=en"> English </a></li>)
+    </ul>
+  </nav>
+  <div class="main-content">
+    <header id="info-header">
+      <h1>@(Ivan Pineda)</h1>
+      <h5>@(Estudiante y desarrollador)</h5>
+      <p id="contact_info">
+
+        @(correo): ivanpineda24061@gmail.com
+        <br>
+        @(telefono): +52 55 8226 0585
+        <br>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/ivan-pineda759/">
+          https://www.linkedin.com/in/ivan-pineda759/
+        </a>
+        <br>
+        Github:
+        <a href="https://github.com/willful759">
+          https://github.com/willful759
+        </a>
+      </p>
+      <hr>
+    </header>
+    <main id="main-area">
+      <section class="section-toggle" id="mi" data-section-id="0">
+        <h3>@(Sobre mi)</h3>
+        <hr>
+        <p>
+          @(Soy un estudiante de ingeniería en computación en la Universidad Nacional Autónoma de México, actualmente
+          estoy
+          a
+          punto de cursar el último semestre de la carrera.)
+        </p>
+
+        <p>
+          @(La mayoría de mi experiencia se basa en el lenguaje <strong>Python</strong>, pero
+          cuento con un poco de experiencia previa con otros lenguajes como <strong>Java</strong>,
+          <strong>Javascript</strong>, <strong>C</strong> e incluso <strong>Haskell</strong>).
+
+        </p>
+
+
+        <p>
+          @(Mi motivación principal para desarrollar es encontrarme con problemas interesantes y aprender)
+
+        </p>
+      </section>
+      <section class="section-toggle" id="edu" data-section-id="1">
+        <h3>@(Educación)</h3>
+        <hr>
+        <p>
+          @(Como mencione, soy estudiante de ingeniería en computación, y estoy a punto de graduarme, cuento con un
+          promedio
+          de 9.19/10. Como parte de mi desarrollo profesional, cubrimos varios temas como):
+        </p>
+        <ul>
+          <li> @(Programación orientada a objetos y estructuras de datos)</li>
+          <li> @(Diseño y análisis de circutitos, diseño lógico, diséño de sistemas digitales) </li>
+          <li> @(Bases de datos) </li>
+          <li> @(Sistemas de información) </li>
+          <li> @(Compiladores) </li>
+          <li> @(Seguridad informática) </li>
+          <li> @(Ciencia de datos (en temas especiales de programación)) </li>
+        </ul>
+        <p>
+          @(Y varios más, al final se encuentra mi historia académica hasta el momento. También he tomado
+          un par de cursos intersemestrales en redes neuronales y en el uso de node.js)
+        <p>
+      </section>
+      <section class="section-toggle" id="exp" data-section-id="2">
+
+        <h3> @(Experiencia) </h3>
+        <hr>
+
+        <h4> @(Desarrollador API) </h4>
+        <p>
+          @(Trabajé de manera extracurricular para <a href="https://www.bexiqo.com/contactanos">Bexiqo</a>
+          como desarrollaodor de la apí que permitiría a los usuarios crear sus cuentas y extraer
+          la información de los distintos servicios que proveería la compañia, se utilizó una arquitectura
+          de microservicios con python, y se utilizö mongodb como base de datos.)
+        </p>
+
+        <h4> @(Realidad Aumentada) </h4>
+        <p>
+          @(Actualmente me encuentro realizando trabajo de realidad aumentada para Frontera como
+          parte de mi servicio social. No puedo dar detalles por mí acuerdo de confidencialidad.)
+        </p>
+
+        <h4> @(Otros) </h4>
+        <p>
+          @(En general, como programador llevo aproximadamente 8 años trabajando en mis habilidades,
+          comenzando aprendiendo el lenguaje C, y después utilizando python como ayuda para mis actividades escolares,
+          sin
+          contar con los proyectos que hemos realizado en clases en lenguajes como Java.)
+        </p>
+
+      </section>
+      <section class="section-toggle" id="hab" data-section-id="3">
+        <h3> @(Habilidades) </h3>
+        <hr>
+
+        <h4> @(Relevantes):</h4>
+        <ul>
+          <li><a
+              href="https://www.freecodecamp.org/certification/fcc0e2434c3-b5f1-4539-8602-ac34f1534354/responsive-web-design">hmtl</a>
+          </li>
+          <li><a
+              href="https://www.freecodecamp.org/certification/fcc0e2434c3-b5f1-4539-8602-ac34f1534354/responsive-web-design">css</a>
+          </li>
+          <li><a
+              href="https://www.freecodecamp.org/certification/fcc0e2434c3-b5f1-4539-8602-ac34f1534354/javascript-algorithms-and-data-structures">javascript</a>
+          </li>
+          <li>jQuery</li>
+        </ul>
+        <h4>@(Otros):</h4>
+        <ul>
+          <li>
+            Python
+            <ul>
+              <li>matplolib</li>
+              <li>pandas</li>
+              <li>numpy</li>
+            </ul>
+          </li>
+          <li>Linux</li>
+          <li>Git</li>
+          <li>Unity</li>
+        </ul>
+
+        <h4>@(Idiomas):</h4>
+        <ul>
+          <li>
+            @(Inglés (fluido))
+          </li>
+          <li>
+            @(Alemán (básico-intermedio))
+          </li>
+        </ul>
+      </section>
+      <section class="section-toggle" id="hist" data-section-id="4">
+        <h3> @(Historia Académica) </h3>
+        <hr>
+        <figure>
+          <img src="hist1.jpg">
+          <img src="hist2.jpg">
+        </figure>
+      </section>
+    </main>
+  </div>
+  <script>
+    $('.section-toggle').on('click', function () {
+      let sectionId = $(this).attr('id');
+      $(`#${sectionId}`).children().not('h3').slideToggle(1000);
+    })
+  </script>
+</body>
+
+</html>
